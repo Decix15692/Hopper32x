@@ -34,7 +34,7 @@ hopper32x/
 ./gradlew build
 ```
 
-##生成JAR文件
+## 生成JAR文件
 
 ```bash
 ./gradlew jar

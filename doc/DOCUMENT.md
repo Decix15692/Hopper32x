@@ -35,9 +35,11 @@ hopper32x/
 ```
 
 ##生成JAR文件
+
 ```bash
 ./gradlew jar
 ```
+
 输出的 JAR 文件位于 `build/libs/`目录下。
 
 ## 技术说明

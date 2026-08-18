@@ -9,7 +9,7 @@ Vanilla tick() -> suckInItems() x1
 Hopper32x tick() -> suckInItems() x N (1 vanilla call + N-1 injected calls)
 ```
 
-The injection point is chosen at the public method `tick()` using `@At("RETURN")`, rather than matching the internal private method via `@At(INVOKE)`. This avoids instruction matching failures caused by bytecode inlining or mapping differences.
+The injection point is chosen at the public method `tick()` using `@At("RETURN")`, rather than matching the internal private method via `@At(“INVOKE”)`. This avoids instruction matching failures caused by bytecode inlining or mapping differences.
 
 ## Project Structure
 

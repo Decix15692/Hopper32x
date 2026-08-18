@@ -9,7 +9,7 @@
 Hopper32x tick() -> suckInItems() x N  （1 次原版 + N-1 次注入）
 ```
 
-注入点选择 public 方法 `tick()` 的 `@At("RETURN")`，而非通过 `@At(INVOKE)` 匹配内部 private 方法。这样避免了因字节码内联或映射差异导致的指令匹配失败问题。
+注入点选择 public 方法 `tick()` 的 `@At("RETURN")`，而非通过 `@At("INVOKE")` 匹配内部 private 方法。这样避免了因字节码内联或映射差异导致的指令匹配失败问题。
 
 ## 项目结构
 

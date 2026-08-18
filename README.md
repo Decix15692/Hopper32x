@@ -1,5 +1,7 @@
 # Hopper Minecart 32x
 
+[English Document](doc/README_en.md)
+
 一个轻量级 NeoForge 模组，提升漏斗矿车的物品传输速率。原版漏斗矿车每 tick 传输 1 个物品，本模组将其提升至 32 个（可配置，最高 1024）。
 
 ## 环境要求
@@ -50,7 +52,7 @@ transfer_per_tick = 32
 
 保存配置文件后即时生效，无需重启游戏。
 
-###其他技术性内容请到[这里](DOCUMENT.md)
+###其他技术性内容请到[这里](doc/DOCUMENT.md)
 
 ## 许可证
 

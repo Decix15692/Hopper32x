@@ -6,12 +6,9 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import org.slf4j.Logger;
+
 /**
  * Hopper Minecart 32x — 模组入口。
- *
- * <p>Phase 1: 项目骨架（已完成）。
- * Phase 2: Mixin 注入 MinecartHopper（已完成）。
- * Phase 3: 配置系统（待开发）。</p>
  */
 @Mod(Hopper32x.MOD_ID)
 public final class Hopper32x {

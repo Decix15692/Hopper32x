@@ -5,7 +5,7 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 /**
  * Hopper32x 配置定义。
  *
- * <p>Phase 3：使用 NeoForge ModConfigSpec 实现 TOML 配置文件。</p>
+ * <p>使用 NeoForge ModConfigSpec 实现 TOML 配置文件。</p>
  *
  * <p>配置文件生成在 {@code config/hopper32x-common.toml}。</p>
  */

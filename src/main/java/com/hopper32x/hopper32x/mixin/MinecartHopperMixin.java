@@ -20,19 +20,15 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * <p>原始 tick() 内部调用 tryConsumeItems() → suckInItems() 一次（如果启用），
  * 我们在 tick() 返回后再调 31 次，总计 32 次/tick。</p>
  *
- <p>N 由配置 {@code transfer_per_tick} 控制（默认 32，范围 1-1024）。</p>
+ *<p>N 由配置 {@code transfer_per_tick} 控制（默认 32，范围 1-1024）。</p>
  
  * <p>用 @At("RETURN") 避免精确匹配 INVOKE 指令的脆弱性。
  * tick() 是 public 方法，不存在 private 方法注入问题。</p>
  *
- * <p>Phase 3 将把循环次数改为可配置。</p>
+ * <p>循环次数可配置。</p>
  */
 @Mixin(MinecartHopper.class)
 public abstract class MinecartHopperMixin {
-
-    @Unique
-    private static final Logger hopper32x$LOGGER = Hopper32x.LOGGER;
-
     @Shadow
     public abstract boolean suckInItems();
 

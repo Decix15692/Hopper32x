@@ -50,7 +50,7 @@ transfer_per_tick = 32
 
 Changes take effect immediately after saving the configuration file; no restart is required.
 
-### For other technical details, please refer to [here](DOCUMENT_en.md)
+For other technical details, please refer to [here](DOCUMENT_en.md)
 
 ## License
 

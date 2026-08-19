@@ -27,7 +27,7 @@
 
 ## 安装
 
-1. 下载模组 JAR 文件，放入 `.minecraft/version/your_minecraft_version/mods/` 目录
+1. 从 [这里](https://github.com/Decix15692/Hopper32x/releases/latest) 下载模组 JAR 文件，放入 `.minecraft/version/your_minecraft_version/mods/` 目录
 2. 确认 NeoForge 版本 ≥ 21.11.44
 3. 启动 Minecraft
 

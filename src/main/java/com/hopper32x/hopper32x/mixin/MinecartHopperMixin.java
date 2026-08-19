@@ -3,8 +3,6 @@ package com.hopper32x.hopper32x.mixin;
 import com.hopper32x.hopper32x.Hopper32x;
 import com.hopper32x.hopper32x.Hopper32xConfig;
 import net.minecraft.world.entity.vehicle.minecart.MinecartHopper;
-import org.slf4j.Logger;
-import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -25,7 +23,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * <p>用 @At("RETURN") 避免精确匹配 INVOKE 指令的脆弱性。
  * tick() 是 public 方法，不存在 private 方法注入问题。</p>
  *
- * <p>循环次数可配置。</p>
  */
 @Mixin(MinecartHopper.class)
 public abstract class MinecartHopperMixin {

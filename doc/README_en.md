@@ -25,7 +25,7 @@ If this occurs, please submit an issue.
 
 ## Installation
 
-1. Download the mod JAR file and place it in the `.minecraft/version/your_minecraft_version/mods/` directory
+1. From [here](https://github.com/Decix15692/Hopper32x/releases/latest) to download the mod JAR file and place it in the `.minecraft/version/your_minecraft_version/mods/` directory
 2. Ensure NeoForge version is ≥ 21.11.44
 3. Launch Minecraft
 
